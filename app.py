@@ -187,7 +187,11 @@ html, body, [data-testid="stApp"] { background: #F4F5F7; }
 [data-testid="stHeader"] { background: white; border-bottom: 1px solid #E2E2E2; }
 
 /* 레이아웃 */
-.block-container { padding-top: .8rem !important; }
+.block-container { padding-top: 3.5rem !important; padding-bottom: 1rem !important; }
+
+/* Streamlit 기본 헤더 숨김 */
+[data-testid="stHeader"] { display: none !important; }
+[data-testid="stToolbar"] { display: none !important; }
 
 /* 핀 카드 */
 .pin-card {
